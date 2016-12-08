@@ -10,8 +10,46 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Nova Script', cursive;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header img {
+  float: left;
+  width: 15%;
+  position: absolute;
+  top: 40px;
+}
+
+header h1 {
+  margin-left: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin-left: -25px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+a:hover {
+  background-color: #000;
 }
