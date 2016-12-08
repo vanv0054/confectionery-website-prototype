@@ -63,7 +63,7 @@ main h2 {
 }
 
 .imageflex {
-  width: 50px;
+  width: 80px;
 }
 
 .card {
@@ -74,10 +74,14 @@ main h2 {
 .card-body h3 {
   font-weight: normal;
   margin-bottom: 0;
+  font-family: 'Bungee', cursive;
+  margin-left: .5em;
 }
 
 .card-body p {
   margin-top: 0;
+  font-family: 'Bungee', cursive;
+  margin-left: .6em;
 }
 
 .cards {
@@ -88,4 +92,26 @@ main h2 {
 .card-img img {
   display: block;
   margin: 0 auto;
+}
+
+.background-1 {
+  background-color: lightgrey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+section img {
+  display: inline-block;
+  width: 45%;
+  padding-top: 10px;
+}
+
+section {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-left: -20px;
 }
