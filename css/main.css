@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Nova Script', cursive;
+  font-family: "Nova Script", cursive;
 }
 
 *, *::before, *::after {
@@ -19,6 +19,18 @@ html {
 
 body {
   margin: 0;
+}
+
+section img {
+  display: inline-block;
+  width: 45%;
+  padding-top: 10px;
+}
+
+figure img {
+  position: relative;
+  width: 150%;
+  margin-left: -40px;
 }
 
 .title img {
@@ -43,7 +55,7 @@ nav li {
 
 nav a {
   display: inline-block;
-  background-color: #333;
+  background-color: #c2c2c2;
   color: #fff;
   border-radius: 4px;
   padding: 8px;
@@ -74,13 +86,13 @@ main h2 {
 .card-body h3 {
   font-weight: normal;
   margin-bottom: 0;
-  font-family: 'Bungee', cursive;
+  font-family: Bungee, cursive;
   margin-left: .5em;
 }
 
 .card-body p {
   margin-top: 0;
-  font-family: 'Bungee', cursive;
+  font-family: Bungee, cursive;
   margin-left: .6em;
 }
 
@@ -105,12 +117,6 @@ main h2 {
   padding-bottom: 5px;
 }
 
-section img {
-  display: inline-block;
-  width: 45%;
-  padding-top: 10px;
-}
-
 section {
   margin-top: 20px;
   margin-left: 20px;
@@ -123,7 +129,7 @@ section h2 {
 
 section ul {
   margin-left: -20px;
-  font-family: 'Bungee', cursive;
+  font-family: Bungee, cursive;
   background-color: lightgrey;
 }
 
@@ -132,25 +138,25 @@ section ul:hover {
   color: #fff;
 }
 
-  figure img {
-    position: relative;
-    width: 150%;
-    margin-left: -40px;
-  }
+figcaption {
+  position: absolute;
+  font-size: 60%;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  left: 5px;
+  top: 191em;
+}
 
-  figcaption {
-    position: absolute;
-    font-size: 60%;
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    border-radius: 10px;
-    left: 5px;
-    top: 191em;
-  }
+figcaption:hover {
+  background-color: #fff;
+  color: #333;
+  border: dotted #000 3px;
+}
 
 .about p {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   margin-left: -5px;
 }
 
