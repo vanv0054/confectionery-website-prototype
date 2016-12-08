@@ -115,3 +115,18 @@ section h2 {
   text-align: center;
   margin-left: -20px;
 }
+
+section ul {
+  margin-left: -20px;
+  font-family: 'Bungee', cursive;
+  background-color: lightgrey;
+}
+
+.about p {
+  font-family: 'Roboto Slab', serif;
+  margin-left: -5px;
+}
+
+.about img {
+  float: left;
+}
