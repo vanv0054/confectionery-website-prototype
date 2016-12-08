@@ -140,3 +140,33 @@ section ul:hover {
 .about img {
   float: left;
 }
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}
