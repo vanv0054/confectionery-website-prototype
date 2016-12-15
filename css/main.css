@@ -28,7 +28,6 @@ section img {
 }
 
 figure img {
-  position: relative;
   width: 150%;
   margin-left: -40px;
 }
@@ -138,6 +137,10 @@ section ul:hover {
   color: #fff;
 }
 
+figure {
+  position: relative;
+}
+
 figcaption {
   position: absolute;
   font-size: 60%;
@@ -145,8 +148,8 @@ figcaption {
   color: #fff;
   padding: 1em;
   border-radius: 10px;
-  left: 6px;
-  top: 196em;
+  left: -22px;
+  top: 1em;
 }
 
 figcaption:hover {
